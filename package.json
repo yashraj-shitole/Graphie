@@ -1,0 +1,53 @@
+{
+  "name": "graphie",
+  "displayName": "Graphie",
+  "description": "Visualizes Angular project structure as a graph, displaying components, services, modules, pipes, and directives with their dependencies.",
+  "version": "0.0.1",
+  "publisher": "Yashraj Shitole",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "keywords": [
+    "angular",
+    "graph",
+    "visualization",
+    "dependency",
+    "architecture"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-username>/<your-repo>.git"
+  },
+  "homepage": "https://github.com/<your-username>/<your-repo>#readme",
+  "activationEvents": [
+    "onCommand:graphie.generate"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "graphie.generate",
+        "title": "Graphie: Generate Angular Graph"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "vis-network": "^9.1.9"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^16.11.7",
+    "typescript": "^5.6.3",
+    "vsce": "^2.15.0"
+  }
+}
