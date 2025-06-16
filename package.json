@@ -21,9 +21,9 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-username>/<your-repo>.git"
+    "url": "https://github.com/yashraj-shitole/Graphie.git"
   },
-  "homepage": "https://github.com/<your-username>/<your-repo>#readme",
+  "homepage": "https://github.com/yashraj-shitole/Graphie#readme",
   "activationEvents": [
     "onCommand:graphie.generate"
   ],
