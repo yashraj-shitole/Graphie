@@ -3,7 +3,7 @@
   "displayName": "Graphie",
   "description": "Visualizes Angular project structure as a graph, displaying components, services, modules, pipes, and directives with their dependencies.",
   "version": "0.0.1",
-  "publisher": "Yashraj Shitole",
+  "publisher": "YashrajShitole",
   "engines": {
     "vscode": "^1.80.0"
   },
